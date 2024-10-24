@@ -21,12 +21,12 @@ public class GestionContenido extends DefaultHandler{
 
     @Override
     public void startElement(String uri, String nombre, String nombrec, Attributes atts){
-        System.out.printf("\tPrincipio de elemento: %s %n", nombre);
+        System.out.printf("\tPrincipio de elemento: %s %n", nombrec);
     }
 
     @Override
     public void endElement(String uri, String nombre, String nombrec){
-        System.out.printf("\tFin de elemento: %s %n", nombre);
+        System.out.printf("\tFin de elemento: %s %n", nombrec);
     }
 
     @Override
